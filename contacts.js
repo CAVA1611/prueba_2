@@ -5,6 +5,9 @@ const contactSchema = new mongoose.Schema({
     phone: Number
 });
 
+contactSchema.methods.cleanup = function() {
+    return {name: this.name, phone: this.phone};
+}
 const Contact = mongoose.model('Contact', contactSchema);
 
 module.export = Contact;
