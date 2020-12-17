@@ -18,4 +18,4 @@ deploy:
     heroku container:push web -a $HEROKU_APP_NAME;
     heroku container:relase web -a $HEROKU_APP_NAME;
   on:
-    branch: master  
+    branch: main  
