@@ -1,13 +1,13 @@
 sudo: required
 language: node_js
 node_js:
- - "9"
+  - "9"
  services:
- - docker
+  - docker
  before_install:
   - wget -qO- http://toobelt.heroku.com/install.sh | sh
 install:
- - npm install
+  - npm install
  script:
   - docker build -t contacts .
 deploy:
