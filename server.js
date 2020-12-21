@@ -34,6 +34,7 @@ app.post(BASE_API_PATH + "/contacts", (req, res) => {
             res.send(500);
         } else {
             res.sendStatus(201);
+            console.log("Contacto creado")
         }
     });
 });
