@@ -37,3 +37,5 @@ app.post(BASE_API_PATH + "/contacts", (req, res) => {
         }
     });
 });
+
+module.exports = app;
