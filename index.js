@@ -1,4 +1,4 @@
-const app = require('/workspace/prueba_2/server');
+const app = require('./server.js');
 const dbConnect = require('./db');
 
 var port = (process.env.PORT || 3030);
