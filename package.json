@@ -2,14 +2,14 @@
   "name": "contacts",
   "version": "1.0.0",
   "description": "API contacts v2",
-  "main": "index.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/CAVA1611/prueba_2.git"
   },
   "homepage": "https://github.com/CAVA1611/prueba_2",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Cesar Velasco A",
