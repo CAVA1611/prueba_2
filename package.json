@@ -9,7 +9,7 @@
   },
   "homepage": "https://github.com/CAVA1611/prueba_2",
   "scripts": {
-    "start": "node prueba2/index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Cesar Velasco A",
